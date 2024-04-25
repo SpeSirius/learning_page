@@ -48,14 +48,22 @@ img:hover {
   transform: scale(1.2);
 }
 
-.lear1 {
+.title {
   position: relative;
   width: 100%;
   height: 100vh;
   margin-top: -12vh;
-  background-color: aqua;
+  background-color: white;
   box-sizing: border-box;
   z-index: 1;
+}
+.title h1{
+  text-align: center;
+  padding-top: 3vh;
+}
+.info-image img{
+  height: 30vh;
+  width: inherit;
 }
 
 .lear2 {
@@ -86,4 +94,8 @@ img:hover {
   background-color: green;
   /* box-sizing: border-box;
     z-index: 1; */
+}
+.footer{
+  height: 20vh;
+  background-color: #2e2c27;
 }
