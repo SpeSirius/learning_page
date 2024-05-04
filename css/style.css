@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -5,31 +7,108 @@
   text-decoration: none;
   box-sizing: border-box;
 }
+
 :root {
   --main-text-900: #ffffff;
+  --main-text-700: #242629;
 
-  --main-font: 2.0rem;
+  --main-font: 2.5rem;
   --subtext-font: 1.5rem;
-  --text-font: 1.0rem;
+  --text-font: 1.2rem;
 }
-.main-info{
+
+body {
+  line-height: 1.5;
+  font-family: 'Montserrat' sans-serif;
+}
+
+.section {
+  background: var(--main-text-900);
+  min-height: 100vh;
+  display: block;
+  padding: 0 30px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.container {
+  background-color: #242629;
+  max-width: 1400px;
   width: 100%;
+  margin: auto
+}
+
+.main-info-section {
   height: 100vh;
+  display: flex;
 }
-.row{
-  width: 100%;
-}
-.main-text-info{
-  position: relative;
-  width: 70vh;
-  top: 35vh;
-  color: var(--main-text-900);
-  left: 50vh;
-  z-index: 1;
-}
-.main-img{
+.main-img img{
   position: absolute;
   top: 0;
   left: 0;
-  width: 90%;
+}
+.main-text-info {
+  position: absolute;
+  width: 100vh;
+  top: 50vh;
+  left: 50vh;
+  color: var(--main-text-900);
+  z-index: 1;
+}
+h1 {
+  margin-right: 10vh;
+  font-size: var(--main-font);
+  text-align: center;
+}
+h4 {
+  margin-right: 10vh;
+  font-size: var(--subtext-font);
+  text-align: center;
+  font-weight: 400;
+  opacity: 0.9;
+  line-height: 0;
+}
+p {
+  font-size: var(--text-font);
+  margin-left: 9vh;
+  margin-right: 5vh;
+  margin-top: 40px;
+  opacity: 0.9;
+}
+
+.learning-text h1 {
+  font-size: var(--main-font);
+  font-weight: 400;
+}
+
+/* SERVICE SECTION */
+
+.service .container {
+  padding-top: 50px;
+}
+
+.service .row {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  width: 100%;
+}
+
+/* .service .service-item {
+  flex-grow: 0 0 33.33%;
+  max-width: 33.33%;
+  margin: 30px;
+} */
+
+.service .service-item-inner {
+  border: 6px solid red;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.service .service-item-inner .service-img img {
+  width: 100%;
+  display: block;
 }
