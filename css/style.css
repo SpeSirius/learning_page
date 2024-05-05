@@ -23,8 +23,8 @@ body {
 }
 
 .section {
-  background: var(--main-text-900);
-  min-height: 100vh;
+  background: pink;
+  /* min-height: 100vh; */
   display: block;
   padding: 0 30px;
 }
@@ -37,23 +37,24 @@ body {
   background-color: #242629;
   max-width: 1400px;
   width: 100%;
-  margin: auto
+  margin: auto;
 }
 
-.main-info-section {
-  height: 100vh;
+.aboutInfo {
+  height: 91vh;
   display: flex;
 }
-.main-img img{
+.about-img img{
   position: absolute;
   top: 0;
   left: 0;
+  width: 95%;
 }
-.main-text-info {
+.about-text-info {
   position: absolute;
   width: 100vh;
-  top: 50vh;
-  left: 50vh;
+  top: 40vh;
+  left: 40vh;
   color: var(--main-text-900);
   z-index: 1;
 }
@@ -79,6 +80,10 @@ p {
 }
 
 .learning-text h1 {
+  height: 9vh;
+  padding-top: 10px;
+  background-color: aqua;
+  width: 100%;
   font-size: var(--main-font);
   font-weight: 400;
 }
@@ -86,20 +91,20 @@ p {
 /* SERVICE SECTION */
 
 .service .container {
-  padding-top: 50px;
+  height: 100vh;
+  /* padding-top: 50px; */
 }
 
 .service .row {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(40vh, 1fr));
+  place-items: center;
   width: 100%;
 }
 
-/* .service .service-item {
-  flex-grow: 0 0 33.33%;
-  max-width: 33.33%;
-  margin: 30px;
-} */
+.service .service-item {
+  margin: 2.0rem;
+}
 
 .service .service-item-inner {
   border: 6px solid red;
