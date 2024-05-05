@@ -24,7 +24,7 @@ body {
 
 .section {
   background: pink;
-  /* min-height: 100vh; */
+  /* min-height: 100em; */
   display: block;
   padding: 0 30px;
 }
@@ -35,14 +35,15 @@ body {
 
 .container {
   background-color: #242629;
-  max-width: 1400px;
-  width: 100%;
+  max-width: 90%;
+  max-height: 30em;
+  /* width: 100%; */
   margin: auto;
 }
-
 .aboutInfo {
-  height: 91vh;
+  height: 100%;
   display: flex;
+  overflow: hidden;
 }
 .about-img img{
   position: absolute;
@@ -50,11 +51,13 @@ body {
   left: 0;
   width: 95%;
 }
-.about-text-info {
-  position: absolute;
-  width: 100vh;
-  top: 40vh;
-  left: 40vh;
+.aboutTextInfo {
+  position: relative;
+  width: 70%;
+  /* top: 55%;
+  left: 50%; */
+  /* transform: translate(-45%,-50%); */
+  overflow: auto;
   color: var(--main-text-900);
   z-index: 1;
 }
