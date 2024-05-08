@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
   margin: 0;
@@ -19,7 +19,7 @@
 
 body {
   line-height: 1.5;
-  font-family: 'Montserrat' sans-serif;
+  font-family: "Montserrat" sans-serif;
 }
 
 .section {
@@ -44,10 +44,10 @@ body {
   /* margin: auto; */
 }
 .aboutInfo {
-  height: 900px; 
- background: url('/img/main-img.png');
- background-position-x: 85%;
- background-position-y: 25%;
+  height: 900px;
+  background: url("/img/main-img.png");
+  background-position-x: 57%;
+  background-position-y: 30%;
   display: flex;
 }
 .aboutTextInfo {
@@ -59,12 +59,12 @@ body {
   z-index: 1;
 }
 h1 {
-  margin-right: 10vh;
+  /* margin-right: 10vh; */
   font-size: var(--main-font);
   text-align: center;
 }
 h4 {
-  margin-right: 10vh;
+  /* margin-right: 10vh; */
   font-size: var(--subtext-font);
   text-align: center;
   font-weight: 400;
@@ -92,7 +92,6 @@ p {
 /* SERVICE SECTION */
 
 .service .container {
- 
   /* padding-top: 50px; */
 }
 
@@ -104,7 +103,7 @@ p {
 }
 
 .service .service-item {
-  margin: 2.0rem;
+  margin: 2rem;
 }
 
 .service .service-item-inner {
@@ -117,4 +116,23 @@ p {
 .service .service-item-inner .service-img img {
   width: 100%;
   display: block;
+}
+
+
+
+@media(max-width:800px){
+  .aboutTextInfo{
+    
+  }
+  h1{
+    font-size: 1.5rem;
+  }
+  h4{
+    font-size: 1.2rem;
+    padding-bottom: 1.5rem;
+  }
+  p{
+    font-size: 0.9rem;
+    margin: 0;
+  }
 }
