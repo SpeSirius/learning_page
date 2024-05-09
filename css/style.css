@@ -173,12 +173,6 @@ img{
     margin: 0;
   }
   .service .row {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(10vh, 1fr));
-    place-items: center;
-    width: 50%;
-  }
-  img{
-    width: 20rem;
+    width: 100%;
   }
 }
