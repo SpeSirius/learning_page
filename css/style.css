@@ -23,7 +23,7 @@ body {
 }
 
 .section {
-  background: pink;
+  /* background: pink; */
   /* min-height: 100em; */
   display: block;
   padding: 0 30px;
@@ -80,14 +80,14 @@ p {
   padding-bottom: 30px;
 }
 
-.learning-text h1 {
+/* .learning-text h1 {
   height: 9vh;
   padding-top: 10px;
   background-color: aqua;
   width: 100%;
   font-size: var(--main-font);
   font-weight: 400;
-}
+} */
 
 /* SERVICE SECTION */
 
@@ -103,7 +103,7 @@ p {
 }
 
 .service .service-item-inner {
-  border: 5px solid red;
+  /* border: 5px solid red; */
   border-radius: 10px;
   overflow: hidden;
   cursor: pointer;
@@ -159,7 +159,7 @@ img{
 
 @media(max-width:800px){
   .aboutTextInfo{
-    
+    width: 100%;
   }
   h1{
     font-size: 1.5rem;
