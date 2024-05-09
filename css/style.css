@@ -141,12 +141,13 @@ img{
 }
 .btn-Info{
   background: black;
+  border: 2px solid black;
   color: white;
   font-weight: 900;
 }
 .btn-Contact{
-  margin-left: 10px;
   border: 2px solid;
+  margin-left: 10px;
   background: white;
   color: black;
   font-weight: 900;
