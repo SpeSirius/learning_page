@@ -146,6 +146,7 @@ img{
 }
 .btn-Contact{
   margin-left: 10px;
+  border: 2px solid;
   background: white;
   color: black;
   font-weight: 900;
