@@ -157,13 +157,13 @@ img {
 }
 
 /* Swiper content */
-.textSection {
-  display: block;
+.pageArticle, .pageReviews{
   padding-top: 2rem;
-  padding-bottom: 2rem;
 }
-.textSection h4{
+.textSection h1{
   text-align: center;
+  font-weight: 100;
+  font-size: 1.0rem;
 }
 .swiper {
   width: 80vh;
