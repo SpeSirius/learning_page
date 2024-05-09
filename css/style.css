@@ -262,6 +262,7 @@ footer{
     font-size: 1.0rem;
   }
   .iconMade img{
+    padding-top: 0.25rem;
     width: 1.5rem;
   }
   .textMade a{
