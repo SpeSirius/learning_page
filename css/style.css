@@ -23,7 +23,7 @@ body {
 }
 
 .section {
-  /* background: pink; */
+  background: white;
   /* min-height: 100em; */
   display: block;
   padding: 0 30px;
@@ -80,14 +80,12 @@ p {
   padding-bottom: 30px;
 }
 
-/* .learning-text h1 {
-  height: 9vh;
+.learningText h1 {
+  height: 7vh;
   padding-top: 10px;
-  background-color: aqua;
   width: 100%;
-  font-size: var(--main-font);
-  font-weight: 400;
-} */
+  font-weight: 100;
+}
 
 /* SERVICE SECTION */
 
@@ -115,6 +113,7 @@ p {
 }
 img{
   width: 20rem;
+  border-radius: 15px;
 }
 .service .service-item-inner .service-img h3{
   width: 100%;
