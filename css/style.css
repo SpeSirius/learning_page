@@ -178,7 +178,7 @@ img {
   background-size: cover;
   width: 100%;
   height: inherit;
-  background: #000;
+  background: white;
 }
 .swiper-slide img {
   width: 80vh;
