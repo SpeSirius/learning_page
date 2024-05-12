@@ -15,3 +15,24 @@ var swiper = new Swiper(".mySwiper", {
   },
   loop: true,
 });
+
+
+// Modal Open
+document.addEventListener('DOMContentLoaded', function() {
+  var openModalButton = document.getElementById('openModal');
+  var modal = document.getElementById('myModal');
+  var closeBtn = document.querySelector('.closeBtn');
+  var backBtn = document.querySelector('.backBtn');
+
+  openModalButton.addEventListener('click', function() {
+      modal.style.display = 'block';
+  });
+
+  closeBtn.addEventListener('click', function() {
+      modal.style.display = 'none';
+  });
+
+  backBtn.addEventListener('click', function() {
+      modal.style.display = 'none';
+  });
+});
