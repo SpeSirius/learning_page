@@ -221,31 +221,33 @@ img {
 footer {
   display: flex;
   background: #000000;
-  height: 55px;
+  /* height: 55px; */
   justify-content: center;
   text-align: center;
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 .textMade {
   place-content: center;
-  height: 2rem;
+  padding-top: 10px;
+  height: 3rem;
 }
 
 .textMade a {
-  font-weight: 700;
+  font-weight: 100;
   padding-right: 0.3rem;
-  color: #F0EAEA;
+  color: #C69C6D;
 }
 
 .iconMade {
+  padding-top: 10px;
   justify-content: center;
-  width: 3rem;
+  width: 2.5rem;
+  height: inherit;
 }
 
 .iconMade img {
-  margin-top: 3px;
-  width: 1.7rem;
+  width: 2.5rem;
 }
 
 /* Open Modal */
@@ -342,12 +344,12 @@ footer {
   }
 
   .iconMade {
-    width: 2rem;
+    width: 2.5rem;
   }
 
   .iconMade img {
-    padding-top: 0.3rem;
-    width: 1.2rem;
+    width: 2.5rem;
+    margin: 0;
   }
 
   .textMade a {
